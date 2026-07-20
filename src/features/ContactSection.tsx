@@ -22,14 +22,14 @@ import { Textarea } from "../components/ui/textarea";
 const contactLinks = [
   {
     label: "Email",
-    value: "nicolasdete@gmail.com",
-    href: "mailto:nicolasdete@gmail.com",
+    value: "nicolasdeteh@gmail.com",
+    href: "https://mail.google.com/mail/?view=cm&fs=1&to=nicolasdeteh@gmail.com",
     icon: Mail,
   },
   {
     label: "Téléphone",
-    value: "+228 97 31 08 89",
-    href: "tel:+22897310889",
+    value: "+228 70 34 82 70",
+    href: "tel:+22870348270",
     icon: Phone,
   },
   {

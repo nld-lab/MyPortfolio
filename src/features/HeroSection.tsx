@@ -95,9 +95,11 @@ export default function HeroSection() {
                   Contacter Moi
                 </Button>
               </a>
+              <a href="#projects" >
               <Button variant="outline" className="p-6 rounded-full dark:border-gray-400 border-primary ">
-                Explorer mes projets <ArrowRight />{" "}
-              </Button>
+                  Explorer mes projets <ArrowRight />{" "}
+                </Button>
+              </a>
             </div>
           </BlurFade>
         </div>
