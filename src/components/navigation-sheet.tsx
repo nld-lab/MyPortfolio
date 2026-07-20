@@ -11,12 +11,10 @@ import {
 export const NavigationSheet = () => {
   return (
     <Sheet>
-      <SheetTrigger
-        render={
-          <Button className="rounded-full" size="icon" variant="outline" />
-        }
-      >
-        <Menu />
+      <SheetTrigger asChild>
+        <Button className="rounded-full" size="icon" variant="outline">
+          <Menu />
+        </Button>
       </SheetTrigger>
       <SheetContent className="px-6 py-3">
         <SheetTitle className="sr-only">Navigation Menu</SheetTitle>
