@@ -10,7 +10,7 @@ export const projects: Project[] = [
       "C'est une maquette d'application pensée pour offrir une navigation simple, des composants cohérents et une lecture rapide des informations importantes. Le travail s'est concentré sur l'ergonomie, la lisibilité et l'impact visuel des blocs de contenu.",
     technologies: ["Figma"],
     image: "/ui/assigame.jpg",
-    viewUrl: "https://example.com/assigame",
+    viewUrl: "https://www.figma.com/design/Xr9qwepqxuaVq5IGR1zzpM/ASSIGAME?node-id=236-481&t=LhyTIn8ah9hgLRhn-1",
     type: "ui/ux",
   },
   {
@@ -22,7 +22,7 @@ export const projects: Project[] = [
       "Cette version web d'Assigame met en avant une expérience e-commerce claire, avec une héro section forte, une navigation épurée et une présentation visuelle orientée conversion. L'objectif est de rendre la découverte des produits et la prise de contact plus naturelles, tout en gardant une ambiance premium et rassurante.",
     technologies: ["React", "TypeScript", "Tailwind CSS", "shadcn/ui"],
     image: "/web/assigame.png",
-    viewUrl: "https://example.com/assigame-web",
+    viewUrl: "https://github.com/nld-lab/assigame-frontend",
     type: "web",
   },
   {
@@ -34,7 +34,7 @@ export const projects: Project[] = [
       "Cette interface web facilite l'accès aux épreuves d'examens grâce à une recherche rapide, une mise en avant claire des catégories et une navigation pensée pour un usage simple et efficace. Le design s'appuie sur une grande image héro, une barre de recherche centrale et des cartes informatives pour donner une lecture immédiate des contenus disponibles.",
     technologies: ["React", "TypeScript", "Tailwind CSS", "shadcn/ui"],
     image: "/web/epreuves.png",
-    viewUrl: "https://example.com/epreuves",
+    viewUrl: "https://github.com/nld-lab/Epreuve-exam-frontend",
     type: "web",
   },
   {
@@ -46,7 +46,7 @@ export const projects: Project[] = [
       "POPS STORE propose une interface de site vitrine avec une navigation simple et efficace, des composants cohérents et une lecture rapide des informations importantes. Le travail s'est concentré sur l'ergonomie, la lisibilité et l'impact visuel des blocs de contenu.",
     technologies: ["React", "TypeScript", "Tailwind CSS", "DaisyUI"],
     image: "/web/popstore.png",
-    viewUrl: "https://example.com/popstore",
+    viewUrl: "https://pop-store-one.vercel.app/",
     type: "web",
   },
   {
@@ -58,7 +58,7 @@ export const projects: Project[] = [
       "SameWay est une maquette d'application pensée pour offrir une navigation simple, des composants cohérents et une lecture rapide des informations importantes. Le travail s'est concentré sur l'ergonomie, la lisibilité et l'impact visuel des blocs de contenu.",
     technologies: ["Figma"],
     image: "/ui/sameway.jpg",
-    viewUrl: "https://example.com/sameway",
+    viewUrl: "https://www.figma.com/design/0nF5KMjUjckEU24MHslueQ/COVOITURAGE?node-id=0-1&t=lIcnJIhRHgkdbSUj-1",
     type: "ui/ux",
   },
   {
@@ -70,7 +70,7 @@ export const projects: Project[] = [
       "YogaChill met en avant une ambiance visuelle douce, des appels à l'action visibles et un storytelling centré sur le bien-être. Le design a été pensé pour inspirer la confiance et guider naturellement l'utilisateur vers la prise de contact ou la réservation.",
     technologies: ["Figma", "UI Design", "Responsive Design", "Accessibility"],
     image: "/ui/yogachill.jpg",
-    viewUrl: "https://example.com/yogachill",
+    viewUrl: "https://www.figma.com/proto/EPwDSgZssvXilMXXTFsLp0/Untitled?node-id=18-106&t=yITKDT7XaBPCvy1K-1&scaling=scale-down-width&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=18%3A106",
     type: "ui/ux",
   },
 ];

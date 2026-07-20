@@ -1,7 +1,6 @@
 import { Button } from "../components/ui/button";
 import { NavMenu } from "../components/nav-menu";
 import { NavigationSheet } from "../components/navigation-sheet";
-import { FaWhatsapp } from "react-icons/fa";
 import { AnimatedThemeToggler } from "./ui/animated-theme-toggler";
 
 const Navbar = () => {
@@ -17,9 +16,8 @@ const Navbar = () => {
         <NavMenu className="hidden md:block" />
 
         <div className="flex items-center gap-3">
-          <a href="https://wa.me/22897310889?text=" target="_blank" rel="noopener noreferrer">
-            <Button  className="hidden rounded-full lg:py-5 hover:bg-green-500  sm:inline-flex lg:px-6">
-              <FaWhatsapp />
+          <a href="#contact">
+            <Button className="hidden rounded-full lg:py-5 sm:inline-flex lg:px-6">
               Contacter Moi
             </Button>
           </a>

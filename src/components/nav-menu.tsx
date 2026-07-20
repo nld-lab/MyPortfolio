@@ -33,10 +33,17 @@ export const NavMenu = (props: ComponentProps<typeof NavigationMenu>) => (
           </NavigationMenuLink>
         </a>
       </NavigationMenuItem>
+      <NavigationMenuItem>
+        <a href="#contact">
+          <NavigationMenuLink className={navigationMenuTriggerStyle()}>
+            Contact
+          </NavigationMenuLink>
+        </a>
+      </NavigationMenuItem>
 
-      <a href="https://wa.me/22897310889?text=Bonjour%2C%20je%20suis%20int%C3%A9ress%C3%A9%20par%20vos%20produits." target="_blank" rel="noopener noreferrer">
+      <a href="#contact">
         <NavigationMenuLink className={navigationMenuTriggerStyle()}>
-          <Button className="rounded-full md:hidden hover:bg-green-500">
+          <Button className="rounded-full md:hidden">
             Contacter Moi
           </Button>
         </NavigationMenuLink>

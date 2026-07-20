@@ -1,3 +1,4 @@
+import { BlurFade } from "../components/ui/blur-fade";
 import { Marquee } from "../components/ui/marquee";
 
 const technologies = [
@@ -62,9 +63,18 @@ const secondRow = technologies.slice(
 export default function LogoSection() {
   return (
     <section className="w-full flex flex-col items-center justify-center md:py-20 py-10">
-        
-        <h2 className="text-3xl font-bold text-center mb-10">Technologies favoris</h2>
-      <div className="relative md:max-w-5xl flex w-full gap-6 flex-col items-center justify-center overflow-hidden py-10 px-4 sm:px-6 lg:px-8">
+      <BlurFade inView delay={0.1}>
+        <h2 className="text-3xl font-bold text-center mb-10">
+          Technologies favoris
+        </h2>
+      </BlurFade>
+
+      <BlurFade
+        inView
+        delay={0.2}
+        offset={20}
+        className="relative md:max-w-5xl flex w-full gap-6 flex-col items-center justify-center overflow-hidden py-10 px-4 sm:px-6 lg:px-8"
+      >
         <Marquee pauseOnHover className="[--duration:20s]">
           {firstRow.map((review) => (
             <div
@@ -95,7 +105,7 @@ export default function LogoSection() {
         </Marquee>
         <div className="from-background pointer-events-none absolute inset-y-0 left-0 w-1/4 bg-linear-to-r"></div>
         <div className="from-background pointer-events-none absolute inset-y-0 right-0 w-1/4 bg-linear-to-l"></div>
-      </div>
+      </BlurFade>
     </section>
   );
 }
