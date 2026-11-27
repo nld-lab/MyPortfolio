@@ -105,7 +105,7 @@ export default function HeroSection() {
         </div>
         <BlurFade delay={0.4} inView direction="left" className="relative mt-8 md:mt-0 w-full max-w-88 md:max-w-104">
           <div className="absolute inset-0 translate-x-4 translate-y-4 " />
-          <div className="relative flex items-center justify-center overflow-visible rounded-[2rem] border border-border/70 bg-background/50 backdrop-blur-xl shadow-2xl shadow-black/10 md:h-132 h-96">
+          <div className="relative flex items-center justify-center overflow-visible rounded-[2rem] border border-border/70 bg-background/50 backdrop-blur-xl shadow-2xl shadow-black/10 md:h-120 h-90">
             <img
               src="/profile.png"
               alt="Hero Image"
