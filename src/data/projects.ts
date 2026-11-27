@@ -34,7 +34,7 @@ export const projects: Project[] = [
       "Cette interface web facilite l'accès aux épreuves d'examens grâce à une recherche rapide, une mise en avant claire des catégories et une navigation pensée pour un usage simple et efficace. Le design s'appuie sur une grande image héro, une barre de recherche centrale et des cartes informatives pour donner une lecture immédiate des contenus disponibles.",
     technologies: ["React", "TypeScript", "Tailwind CSS", "shadcn/ui"],
     image: "/web/epreuves.png",
-    viewUrl: "https://github.com/nld-lab/Epreuve-exam-frontend",
+    viewUrl: "https://github.com/nld-lab/docset",
     type: "web",
   },
   {
@@ -49,18 +49,19 @@ export const projects: Project[] = [
     viewUrl: "https://pop-store-one.vercel.app/",
     type: "web",
   },
-  // {
-  //   id: "sameway-app",
-  //   title: "SameWay",
-  //   description:
-  //     "C'est une solution de covoiturage solidaire et écologique qui permet aux étudiants d'un même quartier de partager leurs trajets vers l'université.",
-  //   fullDescription:
-  //     "SameWay est une maquette d'application pensée pour offrir une navigation simple, des composants cohérents et une lecture rapide des informations importantes. Le travail s'est concentré sur l'ergonomie, la lisibilité et l'impact visuel des blocs de contenu.",
-  //   technologies: ["Figma"],
-  //   image: "/ui/sameway.jpg",
-  //   viewUrl: "https://www.figma.com/design/0nF5KMjUjckEU24MHslueQ/COVOITURAGE?node-id=0-1&t=lIcnJIhRHgkdbSUj-1",
-  //   type: "ui/ux",
-  // },
+  {
+    id: "vote",
+    title: "VOTE",
+    description:
+      "VOTE est une application de vote électronique sécurisée et transparente basée sur la technologie blockchain.",
+    fullDescription:
+      "VOTE propose une interface de vote électronique avec une navigation simple et efficace, des composants cohérents et une lecture rapide des informations importantes. Le travail s'est concentré sur l'ergonomie, la lisibilité et l'impact visuel des blocs de contenu.",
+    technologies: ["React", "TypeScript", "Ethereum", "shadcn/ui", "Express.js", "postgreSQL"],
+    image: "/web/vote.png",
+    viewUrl: "https://github.com/nld-lab/blockchain-project",
+    type: "web",
+  },
+ 
   {
     id: "find-app",
     title: "FIND",
