@@ -80,13 +80,19 @@ export default function ServiceSection() {
                       {service.number} / 03
                     </span>
                     <div className="relative flex flex-col items-center gap-3 text-center text-muted-foreground transition-transform duration-300 group-hover:scale-105">
-                      
-                      
-                        <img src={service.image} alt="image du service" />
-                      
-                      
+                      <Icon className="size-8" aria-hidden="true" />
+                      <span className="text-xs font-medium">
+                        Emplacement de l’image
+                      </span>
                     </div>
-                    
+                    <img
+                      src={service.image}
+                      alt={service.category}
+                      className="absolute inset-0 h-full w-full object-cover"
+                      onError={(event) => {
+                        event.currentTarget.style.display = "none";
+                      }}
+                    />
                   </div>
 
                   <CardHeader className="gap-2">
