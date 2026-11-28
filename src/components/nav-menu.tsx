@@ -8,6 +8,7 @@ import {
   navigationMenuTriggerStyle,
 } from "../components/ui/navigation-menu";
 import { Button } from "./ui/button";
+import { Link } from "react-router-dom";
 
 export const NavMenu = (props: ComponentProps<typeof NavigationMenu>) => (
   <NavigationMenu {...props}>
@@ -27,11 +28,11 @@ export const NavMenu = (props: ComponentProps<typeof NavigationMenu>) => (
         </a>
       </NavigationMenuItem>
       <NavigationMenuItem>
-        <a href="/projects">
+        <Link to="/projects">
           <NavigationMenuLink className={navigationMenuTriggerStyle()}>
             Mes Projets
           </NavigationMenuLink>
-        </a>
+        </Link>
       </NavigationMenuItem>
       <NavigationMenuItem>
         <a href="/#about">
